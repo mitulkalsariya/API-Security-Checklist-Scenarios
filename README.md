@@ -103,7 +103,7 @@
 
 | Test | Tool | Notes |
 | --- | --- | --- |
-| Fuzz paths, params, headers | **ffuf**, **Burp Intruder** | Try /api/v1, /v2, /beta, /internal |
+| Fuzz paths, params, headers | **ffuf**, **Burp Intruder** | Try /api/v1, /v2, /beta, /internal(https://wordlists.assetnote.io/) |
 | Check HTTP vs HTTPS | **curl**, **nmap** | Is port 80 open? |
 | Test allowed methods | OPTIONS /endpoint | Look for unexpected PUT, DELETE |
 | Discover undocumented APIs | **Postman**, **Burp**, **OpenAPI leaks** | Check JS files, Swagger, Postman collections |
